@@ -1,0 +1,10 @@
+^D:\XAMPP\HTDOCS\TEST-MAIN\CLIENT\BUILD\WINDOWS\CMAKEFILES\8301F449C67212392FB6D35092912DD3\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/xampp/htdocs/test-main/client/windows -BD:/xampp/htdocs/test-main/client/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/xampp/htdocs/test-main/client/build/windows/shop.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,28 @@
+^D:\XAMPP\HTDOCS\TEST-MAIN\CLIENT\BUILD\WINDOWS\CMAKEFILES\100AAADF39AB653DDC81DFBD951C2160\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=D:\flutter\flutter PROJECT_DIR=D:\xampp\htdocs\test-main\client FLUTTER_ROOT=D:\flutter\flutter FLUTTER_EPHEMERAL_DIR=D:\xampp\htdocs\test-main\client\windows\flutter\ephemeral PROJECT_DIR=D:\xampp\htdocs\test-main\client FLUTTER_TARGET=D:\xampp\htdocs\test-main\client\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\xampp\htdocs\test-main\client\.dart_tool\package_config.json D:/flutter/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\XAMPP\HTDOCS\TEST-MAIN\CLIENT\BUILD\WINDOWS\CMAKEFILES\DFCDBEB8B78EEDE7E7BE46275DA5169D\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\XAMPP\HTDOCS\TEST-MAIN\CLIENT\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/xampp/htdocs/test-main/client/windows -BD:/xampp/htdocs/test-main/client/build/windows --check-stamp-file D:/xampp/htdocs/test-main/client/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
